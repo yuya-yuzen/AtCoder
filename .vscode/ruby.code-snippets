@@ -1,0 +1,23 @@
+{
+	"intInput": {
+		"prefix": "int",
+		"body": ["n = gets.to_i\n\n"],
+		"description": "An integer input."
+	},
+
+	"strInput": {
+		"prefix": "str",
+		"body": ["s = gets.to_s\n\n"],
+		"description": "A string input."
+	},
+
+	"arrInput": {
+		"prefix": "arr",
+		"body": [
+			"arr = gets.chomp.split",
+			"n.times do |i|",
+			"\tarr[i] = arr[i].to_i",
+			"end\n\n"
+		]
+	}
+}
