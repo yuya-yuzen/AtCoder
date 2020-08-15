@@ -19,5 +19,10 @@
 			"\tarr[i] = arr[i].to_i",
 			"end\n\n"
 		]
+	},
+
+	"ntimes": {
+		"prefix": "ntimes",
+		"body": ["n.times do", "\t", "end"]
 	}
 }
