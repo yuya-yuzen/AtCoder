@@ -1,13 +1,13 @@
 {
 	"intInput": {
 		"prefix": "int",
-		"body": ["n = gets.to_i\n\n"],
+		"body": ["n = gets.chomp.to_i\n"],
 		"description": "An integer input."
 	},
 
 	"strInput": {
 		"prefix": "str",
-		"body": ["s = gets.to_s\n\n"],
+		"body": ["s = gets.chomp\n"],
 		"description": "A string input."
 	},
 
@@ -17,12 +17,12 @@
 			"arr = gets.chomp.split",
 			"n.times do |i|",
 			"\tarr[i] = arr[i].to_i",
-			"end\n\n"
+			"end\n"
 		]
 	},
 
 	"ntimes": {
 		"prefix": "ntimes",
-		"body": ["n.times do", "\t", "end"]
+		"body": ["n.times do", "\t", "end\n"]
 	}
 }
