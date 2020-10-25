@@ -5,15 +5,13 @@ c = abc[2].to_i
 
 a_plus_b = a + b == c
 a_minus_b = a - b == c
-both = a_plus_b && a_minus_b
-never = !a_plus_b && !a_minus_b
 
-if both
+if a_plus_b && a_minus_b
     puts "?"
-elsif never
-    puts "!"
 elsif a_plus_b
     puts "+"
 elsif a_minus_b
     puts "-"
+else
+    puts "!"
 end
