@@ -11,14 +11,10 @@
 		"description": "A string input."
 	},
 
-	"arrInput": {
-		"prefix": "arr",
-		"body": [
-			"arr = gets.chomp.split",
-			"n.times do |i|",
-			"\tarr[i] = arr[i].to_i",
-			"end\n"
-		]
+	"intArrInput": {
+		"prefix": "int",
+		"body": ["arr = gets.chomp.split.map(&:to_i)\n"],
+		"description": "An integer array input."
 	},
 
 	"ntimes": {
