@@ -12,7 +12,7 @@
 	},
 
 	"intArrInput": {
-		"prefix": "int",
+		"prefix": "arr",
 		"body": ["arr = gets.chomp.split.map(&:to_i)\n"],
 		"description": "An integer array input."
 	},
