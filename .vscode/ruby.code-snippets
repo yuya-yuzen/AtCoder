@@ -1,19 +1,19 @@
 {
 	"intInput": {
 		"prefix": "int",
-		"body": ["n = gets.chomp.to_i\n"],
+		"body": ["gets.to_i\n"],
 		"description": "An integer input."
 	},
 
 	"strInput": {
 		"prefix": "str",
-		"body": ["s = gets.chomp\n"],
+		"body": ["gets.chomp\n"],
 		"description": "A string input."
 	},
 
 	"intArrInput": {
 		"prefix": "arr",
-		"body": ["arr = gets.chomp.split.map(&:to_i)\n"],
+		"body": ["gets.chomp.split.map(&:to_i)\n"],
 		"description": "An integer array input."
 	},
 
