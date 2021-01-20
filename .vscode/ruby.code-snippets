@@ -1,24 +1,25 @@
 {
 	"intInput": {
 		"prefix": "int",
-		"body": ["gets.to_i\n"],
+		"body": ["gets.to_i"],
 		"description": "An integer input."
 	},
 
 	"strInput": {
 		"prefix": "str",
-		"body": ["gets.chomp\n"],
+		"body": ["gets.chomp"],
 		"description": "A string input."
 	},
 
 	"intArrInput": {
 		"prefix": "arr",
-		"body": ["gets.chomp.split.map(&:to_i)\n"],
+		"body": ["gets.split.map(&:to_i)\n"],
 		"description": "An integer array input."
 	},
 
-	"ntimes": {
-		"prefix": "ntimes",
-		"body": ["n.times do", "\t", "end\n"]
+	"bitAllSearch": {
+		"prefix": "flag",
+		"body": ["flag = sprintf('%0*b', n, i)\n"],
+		"description": "Flag for bit all search"
 	}
 }
